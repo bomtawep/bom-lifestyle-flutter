@@ -8,7 +8,7 @@ class HomeLight extends StatelessWidget {
     // Create a list of items
     final List<String> entries = <String>['A', 'B', 'C'];
     // Create a list of colors
-    final List<int> colorCodes = <int>[600, 500, 100];
+    // final List<int> colorCodes = <int>[600, 500, 100];
 
     return Scaffold(
       body: ListView.separated(
