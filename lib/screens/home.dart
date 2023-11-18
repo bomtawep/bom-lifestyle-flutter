@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:bom_lifestyle_flutter/widgets/appbar.dart';
 import 'package:bom_lifestyle_flutter/screens/home_light.dart';
-// import 'package:bom_lifestyle_flutter/screens/home_dark.dart';
+import 'package:bom_lifestyle_flutter/screens/home_dark.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
         appBar: const AppBarWidget(),
         body: _themeMode == ThemeMode.light
             ? const HomeLight()
-            : const HomeLight(),
+            : const HomeDark(),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             setState(() {
